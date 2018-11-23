@@ -5,19 +5,17 @@ body{
 }
 .out{
     width: 1040px;
-    margin: 0 auto;
+    margin: 10px auto;
     display: flex;
     flex-direction: row
 }
 .out .aside-left{
     width: 35%;
-    height: 100vh;
     background: #659C9F;
     border: 1px solid red;
 }
 .out .aside-right{
     width: 65%;
-    height: 100vh;
     background: #E1E1E6;
     border: 1px solid red;
 }
