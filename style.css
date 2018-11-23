@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.out{
+    width: 1040px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row
+}
+.out .aside-left{
+    width: 35%;
+    height: 100vh;
+    background: #659C9F;
+    border: 1px solid red;
+}
+.out .aside-right{
+    width: 65%;
+    height: 100vh;
+    background: #E1E1E6;
+    border: 1px solid red;
+}
+.out .aside-left .photo{
+    width: 200px;
+    height: 200px;
+    border: 4px solid #FFFDFA;
+    border-radius: 50%;
+    margin: 30px auto;
+    overflow: hidden;
+}
+.out .aside-left .photo img{
+    width: 200px;
+    height: 200px;
+}
+p{
+    width: 300px;
+    height: 26px;
+    background: #42474B;
+    font-size: 20px;
+    font-family: STKaiti;
+    text-align: center;
+    margin: 20px auto;
+    color: #FFFDFA;
+}
+
+.context,
+.other{
+    width: 300px;
+    margin: 25px auto;
+}
+.icon{
+    padding: 15px 0px;
+    transform: scale(1.5)
+}
+.media{
+    display: flex;
+    flex-direction: row;
+}
+.media dt{
+    border-bottom: 1px solid #E1E1E6;
+    border-right: 1px solid #E1E1E6;
+    padding-right: 20px;
+}
+.media dd{
+    padding-top: 12px;
+    margin-left: 0px;
+    padding-left: 30px;
+    color: #FFFDFA;
+    border-bottom: 1px solid #E1E1E6;
+    width: 75%;
+}
+.skill{
+    width: 300px;
+    margin: 25px auto;
+}
+.skill dt{
+    margin-top: 20px;
+    padding-bottom: 6px;
+}
+.skill dd{
+    height: 5px;
+    background:#42474B;
+    margin-left: 0px;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+.skill .one{
+    height: 5px;
+    background: #FFFDFA;
+    display: block;
+    border-radius: 2px; 
+}
+a{
+    text-decoration: none;
+}
