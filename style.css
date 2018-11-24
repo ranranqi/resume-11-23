@@ -161,3 +161,23 @@ a{
     top: 16%;
     left: 94%;
 }
+.out .main .profile h4{
+    margin: 10px 0;
+}
+.out .main .profile .works{
+    display: flex;
+    flex-direction: row;
+}
+.out .main .profile .works img{
+    width: 160px;
+    height: 120px;
+}
+.out .main .profile .works .code{
+    margin-left: 4%;
+}
+.out .main .profile .works .code dt{
+
+}
+.out .main .profile .works .code dd{
+    margin: 8px 0;
+}
