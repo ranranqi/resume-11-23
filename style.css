@@ -30,8 +30,9 @@ body{
     overflow: hidden;
 }
 .out .asideLeft .photo img{
-    width: 240px;
+    width: 310px;
     height: 290px;
+    margin-left: -35px;
 }
 .out .asideLeft .p{
     width: 300px;
