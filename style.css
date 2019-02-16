@@ -116,7 +116,7 @@ a{
     width: 60%;
     position: absolute;
     left: 38.5%;
-    top: 14.5%;
+    top: 185px;
     box-sizing: border-box;
 }
 .out .main .aboutMe{
@@ -145,9 +145,10 @@ a{
     font-family: KaiTi_GB2312;
     font-weight: bold;
     font-size: 18px;
+    margin: 12px 0;
 }
 .out .main .profile .p{
-    margin-left: 0px;
+    margin-bottom: -40px;
     width: 100%;
     height: 30px;
     padding-top: 4px;
@@ -158,8 +159,8 @@ a{
 }
 .out .main .profile .person{
     display: inline-block;
-    position: absolute;
-    top: 11%;
+    position: relative;
+    top: 0px;
     left: 94%;
 }
 .out .main .profile h4{
@@ -181,7 +182,7 @@ a{
 }
 .out .main .experience .p{
     margin-left: 0px;
-    margin-top: 25px;
+    margin-top: 20px;
     width: 100%;
     height: 30px;
     padding-top: 4px;
@@ -192,12 +193,20 @@ a{
 }
 .out .main .experience .person{
     display: inline-block;
-    position: absolute;
-    top: 82%;
+    position: relative;
+    top: -40px;
     left: 94%;
 }
 
-.out .main .experience .job pre{
+.out .main .experience .box{
+    position: relative;
+    top: -31px;
+    left: 0;
+}
+.out .main .experience .box p{
     font-size: 18px;
     font-family: KaiTi_GB2312;
+    color: black;
+    margin: 4px 0;
 }
+
