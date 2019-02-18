@@ -22,17 +22,17 @@ body{
 }
 
 .out .asideLeft .photo{
-    width: 230px;
-    height: 250px;
+    width: 218px;
+    height: 248px;
     border: 4px solid #FFFDFA;
     border-radius: 50%;
     margin: 30px auto;
     overflow: hidden;
 }
 .out .asideLeft .photo img{
-    width: 310px;
-    height: 290px;
-    margin-left: -35px;
+    width: 224px;
+    height: 299px;
+    margin-top: -8px;
 }
 .out .asideLeft .p{
     width: 300px;
